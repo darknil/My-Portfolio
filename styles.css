@@ -1,0 +1,411 @@
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('./fonts/AbhayaLibre-Bold.ttf') format('truetype');
+    /* Дополнительные форматы шрифта, если необходимо */
+  }
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./images/photo_2022-05-08_11-39-11_waifu2x_photo_noise1_scale.png'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+  }
+.round-button {
+  display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+}
+header {
+    background-color: #78B0BF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    z-index: 1;
+  }
+.close{
+  display: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0; /* Удаление отступов у списка */
+  }
+
+.profile img {
+  width: 40%; 
+  height: auto; 
+  }
+
+.sticky-header {
+  text-align: center;
+  }
+
+.text-light a {
+  font-size: 40px ;
+  color: #071A35; 
+  text-decoration: none; 
+  }
+.text-light a:hover {
+    color: #ff6600; 
+  }
+
+section {
+    display: block;
+    overflow: hidden;
+    margin-left: 15vw;
+  }
+.main-section {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 0;
+    height: 100vh; 
+  }
+
+.centered {
+    text-align: center; 
+  }
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+  font-family: 'Abhaya Libre', sans-serif;
+  }
+
+p {
+    color: #f0f0f0;
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: 'actor';
+    display: block;
+    margin-top: 0;
+  }
+.nav-menu li{
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.nav-menu a {
+  color: #f0f0f0; 
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  }
+
+.nav-menu a span {
+  margin-left: 10px; 
+  }
+
+.nav-menu a:hover {
+  color: #ff6600; 
+  }
+main {
+  background-color: #fff;
+  box-sizing: border-box;
+  }
+.container {
+  padding: 0; 
+  margin-top: 0;
+  background-color: #fff;
+  }
+.About {
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+    margin-top: 0px; 
+  }
+
+.About p {
+    color: #000;
+    font-size: 20px;
+    padding-top: 2vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    padding-bottom: 2vh;
+  }
+.section-title h2 {
+  padding-left: 6vh;
+  padding-top: 3vh;
+  font-size: 50px;
+  color: #173b6c;
+  }
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 50px; 
+  height: 2px; 
+  background-color: #000; 
+  margin-top: 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+.col-lg-4>p {
+  font-size: 20px;
+  font-style: italic;
+  }
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  }
+.img-fluid {
+  max-width: 250px;
+  height: 250px;
+  flex: 0 0 auto;
+  
+  }
+.row h3 {
+  font-family: "Raleway";
+  font-size:  26px;
+  color: #173b6c;
+  padding-left: 6vh;
+  }
+.col-lg-6 {
+  flex: 0 0 50%; /* Занимаем 50% ширины */
+  padding: 0; /* Убираем отступы */
+ }
+.col-lg-6 li {
+  padding-top: 20px;
+  padding-left: 3vh;
+  }
+
+.title  {
+  margin-left: 2vh;
+  }
+.social-links img {
+  width: 45px;
+  height: auto;
+  padding-right: 2vh;
+  }
+.skills {
+  position: relative;
+  height: min-content;
+  }
+.skills-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 2vw;
+  margin-bottom: 5vh;
+  }
+.skills-blocks {
+  margin-top: 5vh;
+  width: 45%;
+  }
+
+.skill-block {
+  float: left;
+  width: auto;
+  margin: 10px;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  color: #666;
+  text-align: center;
+  box-sizing: border-box; 
+  font-size: 25px;
+  padding: 16px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+.skill-block p{
+  font-size: 25px;
+  color: #595959;
+}
+.skills-par-container{
+  background-color: #ECECEC;
+  border-radius: 5px;
+  width: 45%;
+  height: auto;
+  margin-top: 5vh;
+  margin-right: 5vw;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+.skills-par-container h3 {
+  padding: 5px;
+  font-family: "Raleway";
+  font-size:  40px;
+  color: #173b6c;
+  padding-left: 2vw;
+
+}
+.skills-par-container h3::after{
+  content: "";
+  display: block;
+  width: 50px; 
+  height: 2px; 
+  background-color: #000; 
+  margin-top: 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.other_text{
+  display: inline-block;
+  width: auto;
+  color: #595959;
+  font-size: 25px;
+  padding-top: 2vh;
+  padding-left: 2vw;
+}
+.projects {
+  background-color: #84BCEB;
+  }
+.projects-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8vh;
+}
+.project-component{
+  width: 450px;
+  height: 400px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 8vh;
+  margin-left: 3vw;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+.project-image{
+  width: 100%;
+  height: 70%;
+  background-color: #E5E4E4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.project-image a {
+  width: 80%;
+  height: 100%;
+}
+.project-image img {
+  width: 100%;
+  height: 100%;
+}
+.project-title{
+  padding-top: 16px;
+  padding-left: 40px;
+}
+.project-title h3{
+  font-size: 30px;
+}
+.project-title p {
+  color: #000000;
+  font-size: 25px;
+}
+.contacts-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contacts-text{
+  margin-top: 5vh;
+  width: 45%;
+}
+.contacts-text p{
+  color: #000;
+  font-size: 30px;
+}
+.contacts-data{
+  margin-top: 5vh;
+  width: 45%;
+  height: auto;
+  padding-bottom: 5vh;
+}
+@media (max-width: 912px) {
+  body{
+    background-image: url('./images/730pxmedia.png');
+  }
+  header{
+    width: 50vw;
+  }
+  .main-section{
+    margin-left: 0;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .row h3{
+    padding-left: 0;
+    font-size: 8vw;
+  }
+  .col-lg-6{
+    flex: 0 0 50%;
+    padding: 0;
+  }
+
+  section{
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .main-section{
+    padding-left: 0;
+  }
+  .About{
+    padding-left: 0;
+  }
+  .About p {
+    padding-left: 3vw;
+    padding-top: 2vh;
+    padding-right: 3vw;
+    padding-bottom: 2vh;
+  }
+  .skills-blocks{
+    width: 400px;
+  }
+  .skills-par-container{
+    width: 400px;
+  }
+  .projects-container{
+    justify-content: center;
+  }
+  .project-component{
+    width: 80%;
+  }
+  .contacts-text{
+    width: 80%;
+  }
+  .contacts-data{
+    width: 80%;
+  }
+  .round-button {
+    display: block;
+  }
+}
+@media (max-width: 414px) {
+  body{
+    background-image: url('./images/412pxpxmedia.png');
+  }
+  
+}
