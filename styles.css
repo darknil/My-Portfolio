@@ -11,7 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 
 body {
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     background-image: url('./images/photo_2022-05-08_11-39-11_waifu2x_photo_noise1_scale.png'); 
     background-size: cover; 
     background-attachment: fixed; 
@@ -95,7 +95,7 @@ p {
     color: #f0f0f0;
     font-size: 40px;
     line-height: 1.5;
-    font-family: 'actor';
+    font-family: 'Roboto';
     display: block;
     margin-top: 0;
   }
@@ -175,7 +175,7 @@ main {
   
   }
 .row h3 {
-  font-family: "Raleway";
+  font-family: "Roboto";
   font-size:  26px;
   color: #173b6c;
   padding-left: 6vh;
@@ -245,7 +245,7 @@ main {
 }
 .skills-par-container h3 {
   padding: 5px;
-  font-family: "Raleway";
+  font-family: "Roboto";
   font-size:  40px;
   color: #173b6c;
   padding-left: 2vw;
