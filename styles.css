@@ -3,15 +3,15 @@
     src: url('./fonts/AbhayaLibre-Bold.ttf') format('truetype');
     /* Дополнительные форматы шрифта, если необходимо */
   }
-
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 body {
     display: block;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     background-image: url('./images/photo_2022-05-08_11-39-11_waifu2x_photo_noise1_scale.png'); 
     background-size: cover; 
     background-attachment: fixed; 
@@ -95,7 +95,7 @@ p {
     color: #f0f0f0;
     font-size: 40px;
     line-height: 1.5;
-    font-family: 'Roboto';
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin-top: 0;
   }
@@ -158,6 +158,9 @@ main {
   margin-top: 10px; 
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
+.section-title p {
+  font-family: Arial;
+}
 .col-lg-4>p {
   font-size: 20px;
   font-style: italic;
@@ -175,7 +178,7 @@ main {
   
   }
 .row h3 {
-  font-family: "Roboto";
+  font-family: Arial, Helvetica, sans-serif;
   font-size:  26px;
   color: #173b6c;
   padding-left: 6vh;
@@ -245,7 +248,7 @@ main {
 }
 .skills-par-container h3 {
   padding: 5px;
-  font-family: "Roboto";
+  font-family: Arial, Helvetica, sans-serif;
   font-size:  40px;
   color: #173b6c;
   padding-left: 2vw;
